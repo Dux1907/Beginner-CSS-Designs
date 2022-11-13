@@ -1,0 +1,84 @@
+
+@media screen and (max-width:550px){
+    nav {
+        display: flex;
+        flex-direction:column;
+        justify-content: space-around;
+        height: 25vh; 
+        width:100vw;
+    }
+    .two{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+    }
+    ul a{
+        padding:0 .1rem;
+        font-size:1.4rem;
+    }
+    button{
+        padding:0 2rem;
+    }
+}
+@media screen and (max-width:750px){
+    nav {
+        display: flex;
+        flex-direction:column;
+        justify-content: space-around;
+        height: 25vh; 
+    }
+    .two{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+    }
+    ul a{
+        padding:0.4 .1rem;
+        font-size:1.4rem;
+    }
+    button{
+        padding:0 2rem;
+    }
+}
+@media screen and (max-width:950px){
+    figure img{
+        padding:0 1rem;
+    }
+    .store{
+        display:flex;
+        justify-content: flex-start;
+        overflow:scroll;
+    }
+}
+@media screen and (max-width:1170px){
+    .nav {
+        display: flex;
+        flex-direction:column;
+        justify-content: space-around;
+        height: 25vh; 
+
+    }
+   ul a{
+        padding:0 1rem;
+    }
+    button,input{
+        padding:0 1.5rem;
+    }
+    .store{
+        overflow:scroll;
+    }
+    .winter img,
+    .laptops img{
+       height:90%;
+       width:20%;
+        padding:0 1.5rem;
+        min-height:110px;
+        min-width:125px;
+    }
+}
+@media screen and (max-height:750px){
+     nav .footer{
+        padding:0;
+    }
+}
+
